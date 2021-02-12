@@ -68,6 +68,7 @@ export const pageQuery = graphql`
                         position
                         github
                         external
+                        livepage
                         category
                         screenshot {
                             childImageSharp {

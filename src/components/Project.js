@@ -49,6 +49,12 @@ const Project = ({ content }) => {
                                         >
                                             <Icon name="github" />
                                         </a>
+                                        <a
+                                            href={frontmatter.livepage}
+                                            className="font-semibold hover:text-indigo-700 "
+                                        >
+                                            <h1 name="livepage">Live Page</h1>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
